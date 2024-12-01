@@ -1,0 +1,76 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Saurabh Singh Thakur">
+        <meta name="description" content="Contact info for The Little Taco Shop">
+        <title> Contact US - LTS</title>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Contact Us</h1>
+            <nav> <!--navigation tag-->
+                <ul> <!--unordered list tag-->
+                    <li> <!--link tag-->
+                        <a href="/">Home</a>
+                    </li>
+                    <li> <!--link tag-->
+                        <a href="/#about">About<abbr title="The Little Taco Shop">LTS</abbr></a>
+                    </li>
+                    <li> <!--link tag-->
+                        <a href="/#menu">Our Menu</a>
+                    </li>
+                    <li> <!--link tag-->
+                        <a href="hours.html">Store Hours</a>
+                    </li>
+                </ul>   
+            </nav>
+            <figure>
+                <img src="img/tacos_close_up_400x260.png" alt="The Little Taco Shop Tacos" title="Tacos ready to eat" width="400" height="267">
+                <figcaption>Tacos ready to eat</figcaption>
+            </figure>
+        </header>
+        <hr>
+        <main>
+            <h2>Our Contact Form</h2>
+            <section>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send Us a Message</legend>
+                    <p>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="your name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="your email" required>
+                    </p>
+                    <p>
+                        <label for="Message">Your Message:</label>
+                        <br>
+                        <textarea name="Message" id="Message"  cols="30" rows="10"
+                        placeholder="Type your Message here"></textarea>
+                    </p>
+                </fieldset>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+        <section>
+            <h2>Our Location</h2>
+            <address>
+                Bhilai, C.G.<br>
+                <br><br>
+                Phone: <a href="tel:1234567890">1234567890</a>
+            </address>
+        </section>
+        </main>
+        <hr>
+        <footer>
+            <p>Copyright &copy; The Little Taco Shop</p>
+        </footer>
+
+    </body>
+</html>
